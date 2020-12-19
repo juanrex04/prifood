@@ -45,7 +45,4 @@ data() {
   background-color: #13132f;
   font-weight: 800;
 }
-#test{
-color: #e9ce51;
-}
 </style>
