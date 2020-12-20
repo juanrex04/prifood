@@ -9,11 +9,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card>
       </b-col>
 
@@ -25,11 +24,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card>
       </b-col>
 
@@ -41,11 +39,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card></b-col
       >
       <b-col md="3"
@@ -56,11 +53,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card></b-col
       >
       <b-col md="3"
@@ -71,11 +67,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card></b-col
       >
       <b-col md="3"
@@ -86,11 +81,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card></b-col
       >
       <b-col md="3"
@@ -101,11 +95,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card></b-col
       >
       <b-col md="3"
@@ -116,11 +109,10 @@
             fluid
           />
           <b-card-text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Nombre y descripción del producto
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button id="button">Mas info!</b-button>
         </b-card></b-col
       >
     </b-card-group>
@@ -132,4 +124,28 @@
   height: 120px;
   width: auto;
 }
+
+#button{
+appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 15px 25px;
+  background-image: linear-gradient(to right,rgba(81, 180, 88), rgba(232, 74, 42));
+  border-radius: 8px;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+
+  box-shadow: 3px 3px rgba(233, 206, 80);
+  transition: 0.4s ease-out;
+}
+#button:hover {
+  box-shadow: 6px 6px rgba(233, 206, 81);
+}
+
 </style>

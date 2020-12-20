@@ -15,8 +15,8 @@
         >
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
-            <b-nav-item :to="{ name: 'About' }">Acerca de PriFood</b-nav-item>
             <b-nav-item :to="{ name: 'Products' }">Productos</b-nav-item>
+            <b-nav-item :to="{ name: 'About' }">Acerca de PriFood</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
