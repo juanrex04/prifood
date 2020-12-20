@@ -1,0 +1,29 @@
+Colores prifood
+
+Amarillo (Papas fritas/Hamburguesa): 
+rgb(233, 206, 81)
+#e9ce51
+
+Rojo (Titulo PRIFOOD/ Caja papas fritas)
+rgb(232, 74, 42)
+#e84a2a
+
+Verde (Lechuga)
+rgb(81, 180, 88)
+#51b458
+
+Morado / Purpura (Background)
+rgb(19, 19, 47)
+#13132f
+
+Blanco (Frasco de gaseosa)
+rgb(251, 251, 251)
+#fbfbfb
+
+Morado mas claro
+rgb(144, 118, 176)
+#9076b0
+
+Azul (Pared)
+rgb(31, 35, 83)
+#1f2353

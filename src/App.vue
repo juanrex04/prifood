@@ -2,8 +2,16 @@
   <div id="app">
     <b-navbar id="navBar" toggleable="lg" type="dark">
       <b-container>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-navbar-brand :to="{ name: 'Home' }">PRIFOOD</b-navbar-brand>
+        <b-navbar-toggle target="nav-collapse"> </b-navbar-toggle>
+        <b-navbar-brand :to="{ name: 'Home' }">
+          <b-img
+      id="logo"
+      fluid
+      alt="Fluid image"
+      rounded="circle"
+      :src="require('@/assets/img/prifood.jpeg')"
+    ></b-img>
+          PRIFOOD</b-navbar-brand>
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
             <b-nav-item :to="{ name: 'About' }">Acerca de PriFood</b-nav-item>
@@ -12,6 +20,7 @@
         </b-collapse>
       </b-container>
     </b-navbar>
+   
     <b-container>
       <transition
         mode="out-in"
@@ -27,7 +36,7 @@
 export default {
 data() {
   return {
-    color: e9ce51
+    
   }
 },
 };
@@ -40,9 +49,13 @@ data() {
   text-align: center;
   min-height: 100vh;
   max-height: 200vh;
+  background-color: #9076b0;
 }
 #navBar {
-  background-color: #13132f;
+  background-color: #1f2353;
   font-weight: 800;
+}
+#logo{
+  width: 50px;
 }
 </style>
