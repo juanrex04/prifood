@@ -45,12 +45,16 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  height: 100vh;
-  width: auto;
-  background-image: linear-gradient(to bottom, rgba(233, 206, 81), rgba(232, 74, 42));
+  max-height: 200vw;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(233, 206, 81),
+    rgba(232, 74, 42)
+  );
 }
 #navBar {
-  background-image: linear-gradient(to bottom, rgba(144, 118, 176),#1f2353);
+  background-image: linear-gradient(to bottom, rgba(144, 118, 176), #1f2353);
   font-weight: 800;
 }
 #logo {

@@ -1,5 +1,5 @@
 <template>
-  <div class="my-3">
+  <div class=" container my-3">
     <b-carousel
       v-model="slide"
       indicators
@@ -94,7 +94,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 #test {
   width: auto;
   min-height: 200px;
