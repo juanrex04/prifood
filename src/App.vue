@@ -5,22 +5,22 @@
         <b-navbar-toggle target="nav-collapse"> </b-navbar-toggle>
         <b-navbar-brand :to="{ name: 'Home' }">
           <b-img
-      id="logo"
-      fluid
-      alt="Fluid image"
-      rounded="circle"
-      :src="require('@/assets/img/prifood.jpeg')"
-    ></b-img>
-          PRIFOOD</b-navbar-brand>
+            id="logo"
+            fluid
+            alt="Fluid image"
+            rounded="circle"
+            :src="require('@/assets/img/prifood.jpeg')"
+          ></b-img>
+          PRIFOOD</b-navbar-brand
+        >
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
             <b-nav-item :to="{ name: 'About' }">Acerca de PriFood</b-nav-item>
-            <b-nav-item :to="{ name: '' }">Productos</b-nav-item>
+            <b-nav-item :to="{ name: 'Products' }">Productos</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
     </b-navbar>
-   
     <b-container>
       <transition
         mode="out-in"
@@ -34,11 +34,9 @@
 
 <script>
 export default {
-data() {
-  return {
-    
-  }
-},
+  data() {
+    return {};
+  },
 };
 </script>
 
@@ -55,7 +53,7 @@ data() {
   background-color: #1f2353;
   font-weight: 800;
 }
-#logo{
+#logo {
   width: 50px;
 }
 </style>
