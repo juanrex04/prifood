@@ -1,5 +1,5 @@
 <template>
-  <div id="test" class="my-4 container text-center">
+  <div class="my-4 container text-center">
     <b-card-group deck class="mx-2 my-4">
       <b-col md="3">
         <b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
@@ -128,11 +128,6 @@
 </template>
 
 <style>
-#test {
-  color: black;
-  min-height: 500vh;
-  max-height: 500vh;
-}
 #img {
   height: 120px;
   width: auto;
