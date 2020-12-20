@@ -18,7 +18,7 @@
             :src="require('@/assets/img/menu1.jpg')"
             alt="Fluid"
             center
-            ></b-img
+            >Hola</b-img
           >
         </template>
       </b-carousel-slide>
