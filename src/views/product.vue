@@ -1,8 +1,8 @@
 <template>
   <div class="my-4 container text-center">
-    <b-card-group deck class="cards_product">
+    <b-card-group deck class="cards_products">
       <b-col md="3">
-        <b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        <b-card id="card_products1" align="center" style="max-width: 20rem" class="cards_products mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/burger_callejera.jpg`)"
@@ -22,7 +22,7 @@
       </b-col>
 
       <b-col md="3">
-        <b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        <b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/burger_gratinada.jpg`)"
@@ -42,7 +42,7 @@
       </b-col>
 
       <b-col md="3"
-        ><b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card id="card_products1" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/burger_maicitos.jpg`)"
@@ -61,7 +61,7 @@
         </b-card></b-col
       >
       <b-col md="3"
-        ><b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/chori_perro.jpg`)"
@@ -81,7 +81,7 @@
         </b-card></b-col
       >
       <b-col md="3"
-        ><b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card id="card_products1" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/salchipapa_contodo.jpg`)"
@@ -100,7 +100,7 @@
         </b-card></b-col
       >
       <b-col md="3"
-        ><b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/salchipapa_maxima.jpg`)"
@@ -119,7 +119,7 @@
         </b-card></b-col
       >
       <b-col md="3"
-        ><b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card id="card_products1" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/maicitos_rancheros.jpg`)"
@@ -138,7 +138,7 @@
         </b-card></b-col
       >
       <b-col md="3"
-        ><b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
             id="img"
             :src="require(`@/assets/img/maicitos_gratinados.jpg`)"
@@ -162,7 +162,7 @@
 
 <style>
 #img {
-  height: 120px;
+  height: 200px;
   width: auto;
 }
 
@@ -192,7 +192,10 @@
 #button:hover {
   box-shadow: 6px 6px rgba(233, 206, 81);
 }
-.card_products{
-  background: #000;
+#card_products1{
+  background: rgba(144, 118, 176);
+}
+#card_products2{
+  background: rgba(31, 35, 83);
 }
 </style>

@@ -42,23 +42,18 @@ export default {
 
 <style lang="scss">
 body {
-  background: linear-gradient(to left, rgba(144, 118, 176),
-    rgba(19, 19, 47))
+  background: linear-gradient(to bottom, rgba(233, 206, 81), rgba(232, 74, 42))
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#app{
+#app {
   text-align: center;
 }
 #navBar {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(19, 19, 47),
-    rgba(19, 19, 47)
-  );
+  background: rgba(19, 19, 47);
   font-weight: 800;
 }
 #logo {
