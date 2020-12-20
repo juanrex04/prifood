@@ -1,6 +1,6 @@
 <template>
   <div class="my-4 container text-center">
-    <b-card-group deck class="mx-2 my-4">
+    <b-card-group deck class="cards_product">
       <b-col md="3">
         <b-card align="center" style="max-width: 20rem" class="mx-2 my-4">
           <b-img
@@ -191,5 +191,8 @@
 }
 #button:hover {
   box-shadow: 6px 6px rgba(233, 206, 81);
+}
+.card_products{
+  background: #000;
 }
 </style>
