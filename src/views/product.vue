@@ -17,7 +17,6 @@
             ok-only
             size="sm"
             title="Hamburguesa Callejera!"
-            class="animate__animated animate__fadeInLeft"
           >
             <p class="my-4"></p>
           </b-modal>

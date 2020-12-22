@@ -16,7 +16,6 @@
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
             <b-nav-item :to="{ name: 'Products' }">Productos</b-nav-item>
-            <b-nav-item :to="{ name: 'About' }">Acerca de PriFood</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
@@ -29,15 +28,20 @@
       >
         <router-view />
       </transition>
+      <about/>
     </b-container>
   </div>
 </template>
 
 <script>
+import about from '@/components/About.vue'
 export default {
   data() {
     return {};
   },
+  components:{
+    about
+  }
 };
 </script>
 
@@ -49,9 +53,13 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
+  position: relative;
+
 }
 #app {
   text-align: center;
+  align-items: center;
 }
 #navBar {
   background: rgba(19, 19, 47);
