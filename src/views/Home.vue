@@ -1,5 +1,7 @@
 <template>
   <div class=" container my-3">
+    <h1 class="my-3">Bienvenido a PRIFOOD</h1>
+    <h4 class="my-4">¡¡Un lugar al que seguro querrás volver!!</h4>
     <b-carousel
       v-model="slide"
       indicators

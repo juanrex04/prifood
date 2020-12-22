@@ -1,6 +1,6 @@
 <template>
   <div class="my-4 container text-center">
-    <b-card-group deck class="cards_products">
+    <b-card-group deck>
       <b-col md="3">
         <b-card id="card_products1" align="center" style="max-width: 20rem" class="cards_products mx-2 my-4">
           <b-img
@@ -10,14 +10,18 @@
           />
           <b-card-text> <h4>Hamburguesa Callejera</h4> </b-card-text>
           <b-button id="button" v-b-modal.burger_callejera>Mas info!</b-button>
+          <transition>
           <b-modal
             id="burger_callejera"
             centered
             ok-only
+            size="sm"
             title="Hamburguesa Callejera!"
+            class="animate__animated animate__fadeInLeft"
           >
             <p class="my-4"></p>
           </b-modal>
+          </transition>
         </b-card>
       </b-col>
 
@@ -34,6 +38,7 @@
             id="burger_grati"
             centered
             ok-only
+            size="sm"
             title="Hamburguesa Gatrinada!"
           >
             <p class="my-4"></p>
@@ -54,6 +59,7 @@
             id="burger_maicitos"
             centered
             ok-only
+            size="sm"
             title="Hamburguesa con Maicitos!"
           >
             <p class="my-4"></p>
@@ -74,6 +80,7 @@
             id="chori_perro"
             centered
             ok-only
+            size="sm"
             title="Chori Perro!"
           >
             <p class="my-4"></p>
@@ -93,6 +100,7 @@
             id="salchi_contodo"
             centered
             ok-only
+            size="sm"
             title="Salchipapa con Todo!"
           >
             <p class="my-4"></p>
@@ -112,6 +120,7 @@
             id="salchi_maxima"
             centered
             ok-only
+            size="sm"
             title="Salchipapa Maxima!"
           >
             <p class="my-4"></p>
@@ -131,6 +140,7 @@
             id="maicitos_rancheros"
             centered
             ok-only
+            size="sm"
             title="Maicitos Rancheros!"
           >
             <p class="my-4"></p>
@@ -150,6 +160,7 @@
             id="maicitos_gratinados"
             centered
             ok-only
+            size="sm"
             title="Macitos gratinados!"
           >
             <p class="my-4"></p>

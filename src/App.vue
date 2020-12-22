@@ -24,7 +24,8 @@
     <b-container>
       <transition
         mode="out-in"
-        enter-active-class="animate__animated animate__backInDown"
+        enter-active-class="animate__animated animate__zoomIn"       
+        leave-active-class="animate__animated animate__zoomOut"
       >
         <router-view />
       </transition>
@@ -58,5 +59,11 @@ body {
 }
 #logo {
   width: 50px;
+}
+h1{
+  color: white;
+}
+h4{
+  color:white;
 }
 </style>
