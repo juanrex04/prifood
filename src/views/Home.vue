@@ -1,5 +1,5 @@
 <template>
-  <div class=" container my-3">
+  <div class="container my-3">
     <h1 class="my-3">Bienvenido a PRIFOOD</h1>
     <h4 class="my-4">¡¡Un lugar al que seguro pensaras en volver!!</h4>
     <b-carousel
@@ -73,6 +73,59 @@
         </template>
       </b-carousel-slide>
     </b-carousel>
+    <div class="my-4 container">
+      <h1>Nuestros Servicios!!</h1>
+      <b-card-group deck class="my-4">
+        <b-col>
+          <b-card
+            title="Domicilio gratutio"
+            :img-src="require('@/assets/img/delivery-man.svg')"
+            img-alt="Image"
+            img-top
+            style="max-width: 20rem"
+            class="mb-2"
+            bg-variant="info"
+          >
+            <b-card-text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </b-card-text>
+          </b-card>
+        </b-col>
+
+        <b-col>
+          <b-card
+            title="Servicio al Cliente"
+            :img-src="require('@/assets/img/customer-service.svg')"
+            img-alt="Image"
+            img-top
+            style="max-width: 20rem"
+            bg-variant="info"
+          >
+            <b-card-text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </b-card-text>
+          </b-card>
+        </b-col>
+        <b-col>
+          <b-card
+            title="Manipulación de alimentos"
+            :img-src="require('@/assets/img/clean-hands.svg')"
+            img-alt="Image"
+            img-top
+            style="max-width: 20rem"
+            class="mb-2"
+            bg-variant="info"
+          >
+            <b-card-text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </b-card-text>
+          </b-card>
+        </b-col>
+      </b-card-group>
+    </div>
   </div>
 </template>
 
@@ -80,19 +133,19 @@
 export default {
   name: "Home",
   data() {
-      return {
-        slide: 0,
-        sliding: null
-      }
+    return {
+      slide: 0,
+      sliding: null,
+    };
+  },
+  methods: {
+    onSlideStart(slide) {
+      this.sliding = true;
     },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      }
-    }
+    onSlideEnd(slide) {
+      this.sliding = false;
+    },
+  },
 };
 </script>
 

@@ -2,37 +2,45 @@
   <div class="my-4 container text-center">
     <b-card-group deck>
       <b-col md="3">
-        <b-card id="card_products1" align="center" style="max-width: 20rem" class="cards_products mx-2 my-4">
+        <b-card
+          id="card_products1"
+          align="center"
+          style="max-width: 20rem"
+          class="cards_products mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/burger_callejera.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Hamburguesa Callejera</h4> </b-card-text>
-          <b-button id="button" v-b-modal.burger_callejera>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Hamburguesa Callejera</h4> </b-card-text>
           <transition>
-          <b-modal
-            id="burger_callejera"
-            centered
-            ok-only
-            size="sm"
-            title="Hamburguesa Callejera!"
-          >
-            <p class="my-4"></p>
-          </b-modal>
+            <b-modal
+              id="burger_callejera"
+              centered
+              ok-only
+              size="sm"
+              title="Hamburguesa Callejera!"
+            >
+              <p class="my-4"></p>
+            </b-modal>
           </transition>
         </b-card>
       </b-col>
 
       <b-col md="3">
-        <b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        <b-card
+          id="card_products2"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/burger_gratinada.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Hamburguesa Gratinada</h4> </b-card-text>
-          <b-button id="button" v-b-modal.burger_grati>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Hamburguesa Gratinada</h4> </b-card-text>
           <b-modal
             id="burger_grati"
             centered
@@ -46,14 +54,18 @@
       </b-col>
 
       <b-col md="3"
-        ><b-card id="card_products1" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card
+          id="card_products1"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/burger_maicitos.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Hamburguesa con Maicitos</h4> </b-card-text>
-          <b-button id="button" v-b-modal.burger_maicitos>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Hamburguesa con Maicitos</h4> </b-card-text>
           <b-modal
             id="burger_maicitos"
             centered
@@ -62,19 +74,25 @@
             title="Hamburguesa con Maicitos!"
           >
             <p class="my-4"></p>
-          </b-modal>
-        </b-card></b-col
-      >
+          </b-modal> </b-card
+      ></b-col>
       <b-col md="3"
-        ><b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card
+          id="card_products2"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/chori_perro.jpg`)"
             fluid
           />
-          
-          <b-card-text> <br /> <h4>Chori Perro</h4> </b-card-text>
-          <b-button id="button" v-b-modal.chori_perro>Mas info!</b-button>
+
+          <b-card-text class="my-4">
+            <br />
+            <h4>Chori Perro</h4>
+          </b-card-text>
           <b-modal
             id="chori_perro"
             centered
@@ -83,18 +101,21 @@
             title="Chori Perro!"
           >
             <p class="my-4"></p>
-          </b-modal>
-        </b-card></b-col
-      >
+          </b-modal> </b-card
+      ></b-col>
       <b-col md="3"
-        ><b-card id="card_products1" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card
+          id="card_products1"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/salchipapa_contodo.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Salchipapa con todo</h4> </b-card-text>
-          <b-button id="button" v-b-modal.salchi_contodo>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Salchipapa con todo</h4> </b-card-text>
           <b-modal
             id="salchi_contodo"
             centered
@@ -103,18 +124,21 @@
             title="Salchipapa con Todo!"
           >
             <p class="my-4"></p>
-          </b-modal>
-        </b-card></b-col
-      >
+          </b-modal> </b-card
+      ></b-col>
       <b-col md="3"
-        ><b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card
+          id="card_products2"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/salchipapa_maxima.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Salchipapa Maxima</h4> </b-card-text>
-          <b-button id="button" v-b-modal.salchi_maxima>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Salchipapa Maxima</h4> </b-card-text>
           <b-modal
             id="salchi_maxima"
             centered
@@ -123,18 +147,21 @@
             title="Salchipapa Maxima!"
           >
             <p class="my-4"></p>
-          </b-modal>
-        </b-card></b-col
-      >
+          </b-modal> </b-card
+      ></b-col>
       <b-col md="3"
-        ><b-card id="card_products1" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card
+          id="card_products1"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/maicitos_rancheros.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Maicitos Rancheros</h4> </b-card-text>
-          <b-button id="button" v-b-modal.maicitos_rancheros>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Maicitos Rancheros</h4> </b-card-text>
           <b-modal
             id="maicitos_rancheros"
             centered
@@ -143,18 +170,21 @@
             title="Maicitos Rancheros!"
           >
             <p class="my-4"></p>
-          </b-modal>
-        </b-card></b-col
-      >
+          </b-modal> </b-card
+      ></b-col>
       <b-col md="3"
-        ><b-card id="card_products2" align="center" style="max-width: 20rem" class="mx-2 my-4">
+        ><b-card
+          id="card_products2"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
           <b-img
             id="img"
             :src="require(`@/assets/img/maicitos_gratinados.jpg`)"
             fluid
           />
-          <b-card-text> <h4>Maicitos gratinados</h4> </b-card-text>
-          <b-button id="button" v-b-modal.maicitos_gratinados>Mas info!</b-button>
+          <b-card-text class="my-4"> <h4>Maicitos gratinados</h4> </b-card-text>
           <b-modal
             id="maicitos_gratinados"
             centered
@@ -163,9 +193,8 @@
             title="Macitos gratinados!"
           >
             <p class="my-4"></p>
-          </b-modal>
-        </b-card></b-col
-      >
+          </b-modal> </b-card
+      ></b-col>
     </b-card-group>
   </div>
 </template>
@@ -202,10 +231,10 @@
 #button:hover {
   box-shadow: 6px 6px rgba(233, 206, 81);
 }
-#card_products1{
+#card_products1 {
   background: rgba(144, 118, 176);
 }
-#card_products2{
+#card_products2 {
   background: rgba(31, 35, 83);
 }
 </style>
