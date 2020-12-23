@@ -71,11 +71,9 @@ body {
 }
 h1 {
   color: white;
-  font-family: 'Fredoka One', cursive;
 }
 h4 {
   color: white;
-  font-family: 'Fredoka One', cursive;
 }
 h6{
   color: white;
