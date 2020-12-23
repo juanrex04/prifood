@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
             <h6 class="text-uppercase font-weight-bold">
-              <strong>¿Quienes Somos?</strong>
+              <strong>¿Quiénes Somos?</strong>
             </h6>
             <hr
               class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"

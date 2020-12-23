@@ -13,18 +13,9 @@
             :src="require(`@/assets/img/burger_callejera.jpg`)"
             fluid
           />
-          <b-card-text class="my-4"> <h4>Hamburguesa Callejera</h4> </b-card-text>
-          <transition>
-            <b-modal
-              id="burger_callejera"
-              centered
-              ok-only
-              size="sm"
-              title="Hamburguesa Callejera!"
-            >
-              <p class="my-4"></p>
-            </b-modal>
-          </transition>
+          <b-card-text class="my-4">
+            <h4>Hamburguesa Callejera</h4>
+          </b-card-text>
         </b-card>
       </b-col>
 
@@ -40,16 +31,9 @@
             :src="require(`@/assets/img/burger_gratinada.jpg`)"
             fluid
           />
-          <b-card-text class="my-4"> <h4>Hamburguesa Gratinada</h4> </b-card-text>
-          <b-modal
-            id="burger_grati"
-            centered
-            ok-only
-            size="sm"
-            title="Hamburguesa Gatrinada!"
-          >
-            <p class="my-4"></p>
-          </b-modal>
+          <b-card-text class="my-4">
+            <h4>Hamburguesa Gratinada</h4>
+          </b-card-text>
         </b-card>
       </b-col>
 
@@ -65,17 +49,11 @@
             :src="require(`@/assets/img/burger_maicitos.jpg`)"
             fluid
           />
-          <b-card-text class="my-4"> <h4>Hamburguesa con Maicitos</h4> </b-card-text>
-          <b-modal
-            id="burger_maicitos"
-            centered
-            ok-only
-            size="sm"
-            title="Hamburguesa con Maicitos!"
-          >
-            <p class="my-4"></p>
-          </b-modal> </b-card
-      ></b-col>
+          <b-card-text class="my-4">
+            <h4>Hamburguesa con Maicitos</h4>
+          </b-card-text>
+        </b-card></b-col
+      >
       <b-col md="3"
         ><b-card
           id="card_products2"
@@ -93,19 +71,11 @@
             <br />
             <h4>Chori Perro</h4>
           </b-card-text>
-          <b-modal
-            id="chori_perro"
-            centered
-            ok-only
-            size="sm"
-            title="Chori Perro!"
-          >
-            <p class="my-4"></p>
-          </b-modal> </b-card
-      ></b-col>
+        </b-card></b-col
+      >
       <b-col md="3"
         ><b-card
-          id="card_products1"
+          id="card_products2"
           align="center"
           style="max-width: 20rem"
           class="mx-2 my-4"
@@ -115,40 +85,11 @@
             :src="require(`@/assets/img/salchipapa_contodo.jpg`)"
             fluid
           />
-          <b-card-text class="my-4"> <h4>Salchipapa con todo</h4> </b-card-text>
-          <b-modal
-            id="salchi_contodo"
-            centered
-            ok-only
-            size="sm"
-            title="Salchipapa con Todo!"
-          >
-            <p class="my-4"></p>
-          </b-modal> </b-card
-      ></b-col>
-      <b-col md="3"
-        ><b-card
-          id="card_products2"
-          align="center"
-          style="max-width: 20rem"
-          class="mx-2 my-4"
-        >
-          <b-img
-            id="img"
-            :src="require(`@/assets/img/salchipapa_maxima.jpg`)"
-            fluid
-          />
-          <b-card-text class="my-4"> <h4>Salchipapa Maxima</h4> </b-card-text>
-          <b-modal
-            id="salchi_maxima"
-            centered
-            ok-only
-            size="sm"
-            title="Salchipapa Maxima!"
-          >
-            <p class="my-4"></p>
-          </b-modal> </b-card
-      ></b-col>
+          <b-card-text class="my-4">
+            <h4>Salchipapa con todo</h4>
+          </b-card-text></b-card
+        ></b-col
+      >
       <b-col md="3"
         ><b-card
           id="card_products1"
@@ -158,20 +99,14 @@
         >
           <b-img
             id="img"
-            :src="require(`@/assets/img/maicitos_rancheros.jpg`)"
+            :src="require(`@/assets/img/salchipapa_maxima.jpg`)"
             fluid
           />
-          <b-card-text class="my-4"> <h4>Maicitos Rancheros</h4> </b-card-text>
-          <b-modal
-            id="maicitos_rancheros"
-            centered
-            ok-only
-            size="sm"
-            title="Maicitos Rancheros!"
-          >
-            <p class="my-4"></p>
-          </b-modal> </b-card
-      ></b-col>
+          <b-card-text class="my-4">
+            <h4>Salchipapa Maxima</h4>
+          </b-card-text></b-card
+        ></b-col
+      >
       <b-col md="3"
         ><b-card
           id="card_products2"
@@ -181,20 +116,31 @@
         >
           <b-img
             id="img"
+            :src="require(`@/assets/img/maicitos_rancheros.jpg`)"
+            fluid
+          />
+          <b-card-text class="my-4">
+            <h4>Maicitos Rancheros</h4>
+          </b-card-text></b-card
+        ></b-col
+      >
+      <b-col md="3"
+        ><b-card
+          id="card_products1"
+          align="center"
+          style="max-width: 20rem"
+          class="mx-2 my-4"
+        >
+          <b-img
+            id="img"
             :src="require(`@/assets/img/maicitos_gratinados.jpg`)"
             fluid
           />
-          <b-card-text class="my-4"> <h4>Maicitos gratinados</h4> </b-card-text>
-          <b-modal
-            id="maicitos_gratinados"
-            centered
-            ok-only
-            size="sm"
-            title="Macitos gratinados!"
-          >
-            <p class="my-4"></p>
-          </b-modal> </b-card
-      ></b-col>
+          <b-card-text class="my-4">
+            <h4>Maicitos gratinados</h4>
+          </b-card-text></b-card
+        ></b-col
+      >
     </b-card-group>
   </div>
 </template>

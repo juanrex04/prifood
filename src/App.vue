@@ -23,55 +23,64 @@
     <b-container>
       <transition
         mode="out-in"
-        enter-active-class="animate__animated animate__zoomIn"       
-        leave-active-class="animate__animated animate__zoomOut"
+        enter-active-class="animate__animated animate__fadeIn"
+        leave-active-class="animate__animated animate__fadeOut"
       >
         <router-view />
       </transition>
-      <about/>
+      <about />
     </b-container>
   </div>
 </template>
 
 <script>
-import about from '@/components/About.vue'
+import about from "@/components/About.vue";
 export default {
   data() {
     return {};
   },
-  components:{
-    about
-  }
+  components: {
+    about,
+  },
 };
 </script>
 
 <style lang="scss">
 body {
   background: linear-gradient(to bottom, rgba(233, 206, 81), rgba(232, 74, 42))
-    no-repeat center center fixed;
+  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
   position: relative;
-
+  font-family: "Bungee Outline", cursive;
 }
 #app {
   text-align: center;
   align-items: center;
 }
 #navBar {
-  background: rgba(19, 19, 47);
+  background: linear-gradient(to right, rgba(31, 35, 83), rgba(144, 118, 176))
+    no-repeat center center fixed;
   font-weight: 800;
 }
 #logo {
   width: 50px;
 }
-h1{
+h1 {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+h4 {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+h6{
   color: white;
 }
-h4{
-  color:white;
+p{
+  color: white;
 }
 </style>
