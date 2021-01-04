@@ -55,7 +55,6 @@ body {
   background-size: cover;
   text-align: center;
   position: relative;
-  font-family: "Bungee Outline", cursive;
 }
 #app {
   text-align: center;
